@@ -69,9 +69,9 @@ position = Vector2( 24, 24 )
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
-vframes = 4
 hframes = 4
-frame = 10
+vframes = 4
+frame = 3
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true

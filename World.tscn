@@ -178,7 +178,6 @@ margin_bottom = 53.0
 custom_styles/panel = ExtResource( 7 )
 
 [node name="CollectionInfo" type="Label" parent="CanvasLayer"]
-visible = false
 self_modulate = Color( 0.431373, 0.341176, 0.45098, 1 )
 margin_left = 32.0
 margin_top = 176.0
@@ -207,7 +206,6 @@ __meta__ = {
 }
 
 [node name="StepsItems" type="Panel" parent="CanvasLayer"]
-visible = false
 show_behind_parent = true
 margin_left = 16.0
 margin_top = 8.0
@@ -318,6 +316,7 @@ __meta__ = {
 }
 
 [node name="TreasureDisplay" type="Panel" parent="CanvasLayer"]
+visible = false
 anchor_left = 0.5
 anchor_right = 0.5
 margin_left = -276.0
