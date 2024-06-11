@@ -50,6 +50,11 @@ points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
 0/tile_mode = 0
 0/occluder_offset = Vector2( 0, 0 )
 0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
 0/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -66,6 +71,11 @@ points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
 1/tile_mode = 0
 1/occluder_offset = Vector2( 0, 0 )
 1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape = SubResource( 2 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
 1/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -82,6 +92,11 @@ points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
 2/tile_mode = 0
 2/occluder_offset = Vector2( 0, 0 )
 2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 3 )
+2/shape_one_way = false
+2/shape_one_way_margin = 1.0
 2/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -98,6 +113,11 @@ points = PoolVector2Array( 16, 16, 0, 16, 0, 0, 16, 0 )
 3/tile_mode = 0
 3/occluder_offset = Vector2( 0, 0 )
 3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape = SubResource( 4 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
 3/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
@@ -158,6 +178,7 @@ margin_bottom = 53.0
 custom_styles/panel = ExtResource( 7 )
 
 [node name="CollectionInfo" type="Label" parent="CanvasLayer"]
+visible = false
 self_modulate = Color( 0.431373, 0.341176, 0.45098, 1 )
 margin_left = 32.0
 margin_top = 176.0
@@ -176,25 +197,23 @@ __meta__ = {
 show_behind_parent = true
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -16.0
-margin_top = -16.0
-margin_right = 18.0
-margin_bottom = 15.0
+margin_left = -30.0
+margin_top = -12.0
+margin_right = 25.0
+margin_bottom = 19.0
 custom_styles/panel = ExtResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="StepsItems" type="Panel" parent="CanvasLayer"]
+visible = false
 show_behind_parent = true
 margin_left = 16.0
 margin_top = 8.0
 margin_right = 336.0
 margin_bottom = 152.0
 custom_styles/panel = ExtResource( 7 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/StepsItems"]
 anchor_left = 0.5
@@ -288,10 +307,10 @@ __meta__ = {
 
 [node name="Steps" type="Label" parent="CanvasLayer"]
 self_modulate = Color( 0.431373, 0.341176, 0.45098, 1 )
-margin_left = 32.0
-margin_top = 24.0
-margin_right = 108.0
-margin_bottom = 72.0
+margin_left = 43.0
+margin_top = 22.0
+margin_right = 262.0
+margin_bottom = 70.0
 custom_fonts/font = ExtResource( 8 )
 text = "Free Steps Left:"
 __meta__ = {
@@ -299,7 +318,6 @@ __meta__ = {
 }
 
 [node name="TreasureDisplay" type="Panel" parent="CanvasLayer"]
-visible = false
 anchor_left = 0.5
 anchor_right = 0.5
 margin_left = -276.0
@@ -352,7 +370,7 @@ margin_top = -117.0
 margin_right = 260.0
 margin_bottom = -9.0
 custom_fonts/font = ExtResource( 8 )
-text = "\"Buy my game Theyest Thou on Steam, also congrats on beating this game\""
+text = "\"Congrats on beating this game!\""
 align = 1
 valign = 1
 autowrap = true

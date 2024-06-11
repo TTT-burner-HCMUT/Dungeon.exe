@@ -1,3 +1,7 @@
+This game was created as part of the assignment for the Game Programming course of the Ho Chi Minh University of Technology
+Product of: Phan Đức Sơn - 1952960
+	    Trần Thành Thái - 2152360
+            Trần Xuân Trúc - 1953061
 Male Voice A Sound Effect by: Brannon Wyndesor www.wyndesor.com
 Cat Mew Sound Effect by: IgnasD https://opengameart.org/content/mew
 Stairs Sound Effect by: dorkster https://opengameart.org/content/stone-stair-steps
